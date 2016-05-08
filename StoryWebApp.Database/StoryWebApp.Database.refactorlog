@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="86d8c936-d185-4f1c-b04f-4ae0ab43198d" ChangeDateTime="05/08/2016 20:17:01">
+    <Property Name="ElementName" Value="[dbo].[StoryChapterMap].[Order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StoryChapterMap]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ChapterOrder" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="51bd35d7-1acf-41ee-b58a-1ac51ef92dff" ChangeDateTime="05/08/2016 20:17:12">
+    <Property Name="ElementName" Value="[dbo].[ChapterSectionMap].[Order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ChapterSectionMap]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SectionOrder" />
+  </Operation>
+</Operations>
